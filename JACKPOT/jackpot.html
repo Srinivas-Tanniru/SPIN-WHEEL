@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, , initial-scale=1.0">
+  
+   <title>Document</title>
+   <link rel="stylesheet" href="./jackpot.css">
+</head>
+<body>
+
+    <div id="container">
+        <input type="button" value="SPIN" id="a" onclick="spin()">
+        <img src="./../Assests/wheelpng.png" id="b">
+        <img src="./../Assests/arrowpng.png" id="c">
+
+        <h1 id="result"></h1>
+        
+    </div>
+    
+   <script>
+            function spin()
+            {
+                var random=Math.floor(Math.random()*1000)
+                document.getElementById("b").style.rotate=random+"deg"
+            }
+   </script> 
+</body>
+</html>
