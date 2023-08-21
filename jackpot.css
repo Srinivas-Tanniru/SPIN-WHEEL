@@ -19,8 +19,8 @@
             height: 500px;
             left: 500px;
             top: 30px;
-      transition-timing-function: ease-out;
-            transition: 10s;
+     
+           
             
           }
           #a{
@@ -51,18 +51,19 @@
         @media only screen and (max-width:600px) 
         {
           #container{        
-            width: 100%;
+           
           
             background-image: linear-gradient(75deg,rgb(175, 35, 49),rgb(213, 124, 213));
-           position: relative;   
+           position: relative; 
+          
         }
         #b{
           position: absolute;
-          width: 200px;
-          height: 200px;
+          width: 250px;
+          height: 250px;
           left: 50px;
           top: 200px;
-          transition:  10s;
+         
         }
         #a{
           position: absolute;
@@ -82,10 +83,10 @@
         #c
         {
           position: fixed;
-         top: 255px;
-          right: 40px;
-           width: 100px;
-         height: 100px;
+         top: 300px;
+          right: 17px;
+           width: 60px;
+         height: 60px;
           position: absolute;
       }
         
