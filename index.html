@@ -11,8 +11,8 @@
 
     <div id="container">
         <input type="button" value="SPIN" id="a" onclick="spin()">
-        <img src="./Assests/wheelpng.png" id="b">
-        <img src="./Assests/arrowpng.png" id="c">
+        <img src="./Assests/wheelpng.png" id="b" alt="sppin">
+        <img src="./Assests/arrowpng.png" id="c" atl="arrow">
 
         <h1 id="result"></h1>
         
@@ -21,8 +21,17 @@
    <script>
             function spin()
             {
-                var random=Math.floor(Math.random()*1000)
-                document.getElementById("b").style.rotate=random+"deg"
+                var random=Math.floor(Math.random()*1000);
+                console.log('random',random)
+                document.getElementById("b").style.transform="rotate("+random+"deg)"
+             
+              
+             
+               
+               
+            
+
+
             }
    </script> 
 </body>
